@@ -1,0 +1,97 @@
+/** CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 20px 40px;
+  background-color: #148f7c;
+  color: #d4d6d5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/** BUTTONS STYLE START */
+.btn-section {
+  padding: 20px 0 40px;
+  text-align: center;
+}
+
+.btn-section button {
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color: #1f2937;
+  color: #d4d6d5;
+  border: none;
+  border-radius: 12px;
+  transition: background-color linear 0.33s;
+}
+
+.btn-section button:hover {
+  background-color: #d4d6d5;
+  color: #1f2937;
+  cursor: pointer;
+}
+
+.btn-section button:not(:last-child) {
+  margin-right: 20px;
+}
+/** BUTTONS STYLE END */
+
+/** COMMENTS START */
+#comment-section,
+#user-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.comment-box {
+  padding: 30px;
+  background-color: #1f2937;
+  border-radius: 12px;
+}
+.name {
+  color: #ffffff;
+}
+.email {
+  margin: 5px 0 15px;
+}
+/** COMMENTS END */
+
+/** USERS START */
+.username {
+  margin: 5px 0 10px;
+}
+.address {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+}
+
+.address-detail *:not(:last-child),
+.geo *:not(:last-child) {
+  margin-bottom: 8px;
+}
+/** USERS END */
