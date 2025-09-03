@@ -22,7 +22,7 @@ const loadComments = () => {
 
 const displayComments = (comments) => {
   const commentSection = document.getElementById("comment-section");
-  // commentSection.innerHTML = "";
+  commentSection.innerHTML = "";
 
   comments.forEach(comment => {
     // console.log(comment);
@@ -53,6 +53,7 @@ const loadUsers = () => {
 
 const displayUsers = (users) => {
   const usersSection = document.getElementById("user-section");
+  usersSection.innerHTML = "";
 
   users.forEach(user => {
     // console.log(user);
