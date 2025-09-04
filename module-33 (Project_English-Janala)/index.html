@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--* META TAGS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--* TITLE & FAVICON -->
+  <title>English জানালা | Best platform to learn English</title>
+  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+
+  <!--* FONTAWSOME ICON -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--* TAILWIND CSS & DAISY UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!--* CSS -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="font-poppins primary-clr">
+
+  <!--* LOGIN FORM START -->
+  <section id="form" class="flex items-center justify-center h-screen">
+    <form class="flex flex-col gap-4">
+      <h1 class="accent-clr-blue  mb-10 text-6xl font-bold text-center">Login</h1>
+
+      <input type="email" id="user-email-input" placeholder="Please add your email..." required class="py-5 pl-5 pr-20 text-sm font-semibold bg-transparent text-[#422ad5] border-2 border-[#422ad5] rounded-md focus:text-[#00BCFF] focus:border-[#00BCFF] focus:outline-none">
+
+      <input type="password" id="user-password-input" placeholder="Please add your password..." required class="py-5 pl-5 pr-20 text-sm font-semibold bg-transparent text-[#422ad5] border-2 border-[#422ad5] rounded-md focus:text-[#00BCFF] focus:border-[#00BCFF] focus:outline-none">
+
+      <button type="submit" id="submit-button" class="btn text-sm font-semibold bg-transparent accent-clr-purple border-2 border-[#422ad5] rounded-md transition-colors ease-linear duration-200 btn-hover">Submit</button>
+    </form>
+  </section>
+  <!--* LOGIN FORM END -->
+
+  <!--* HEADER START -->
+  <header class=" mx-auto max-w-[1920px]"> <!-- add this class after finishing the project "hidden" -->
+    <div class="navbar bg-light-blue py-6 px-20">
+
+      <!--? DROPDOWN & LOGO -->
+      <div class="navbar-start">
+
+        <!--* Dropdown -->
+        <div class="dropdown">
+
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+
+          <ul tabindex="0"
+            class="menu menu-sm dropdown-content flex flex-col gap-4 bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+
+            <!--* FAQ -->
+            <li>
+              <a
+                class="btn text-sm font-semibold bg-transparent accent-clr-purple border-2 border-[#422ad5] rounded-md transition-colors ease-linear duration-200 btn-hover">
+                <i class="fa-solid fa-circle-question"></i>
+                FAQ
+              </a>
+            </li>
+
+            <!--* LEARN -->
+            <li>
+              <a
+                class="btn text-sm font-semibold bg-transparent accent-clr-purple border-2 border-[#422ad5] rounded-md transition-colors ease-linear duration-200 btn-hover">
+                <i class="fa-solid fa-book-open"></i>
+                Learn
+              </a>
+            </li>
+
+            <!--* LOGOUT -->
+            <li>
+              <a
+                class="btn logout-button text-sm font-semibold bg-transparent accent-clr-purple border-2 border-[#422ad5] rounded-md transition-colors ease-linear duration-200 btn-hover">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                Logout
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!--* Logo -->
+        <a href="./index.html" class="flex items-center gap-1">
+          <span class="text-xl font-semibold">English</span>
+          <img src="./assets/logo.png" alt="It is logo image of this website" class="size-9">
+          <span class="text-xl font-hind_siliguri">জানালা</span>
+        </a>
+
+      </div>
+
+      <!--? BUTTONS -->
+      <div class="navbar-end hidden lg:flex">
+        <ul class="menu menu-horizontal flex gap-4 px-1">
+
+          <!--* FAQ -->
+          <li>
+            <a
+              class="btn text-sm font-semibold bg-transparent accent-clr-purple border-2 border-[#422ad5] rounded-md transition-colors ease-linear duration-200 btn-hover">
+              <i class="fa-solid fa-circle-question"></i>
+              FAQ
+            </a>
+          </li>
+
+          <!--* LEARN -->
+          <li>
+            <a
+              class="btn text-sm font-semibold bg-transparent accent-clr-purple border-2 border-[#422ad5] rounded-md transition-colors ease-linear duration-200 btn-hover">
+              <i class="fa-solid fa-book-open"></i>
+              Learn
+            </a>
+          </li>
+
+          <!--* LOGOUT -->
+          <li>
+            <a
+              class="btn logout-button text-sm font-semibold bg-transparent accent-clr-purple border-2 border-[#422ad5] rounded-md transition-colors ease-linear duration-200 btn-hover">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Logout
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </header>
+  <!--* HEADER END -->
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
