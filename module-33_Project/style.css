@@ -7,3 +7,37 @@
 .font-hind_siliguri {
   font-family: "Hind Siliguri", sans-serif;
 }
+
+/** COLOR */
+.primary-clr {
+  color: #18181B;
+}
+.secondary-clr {
+  color: #62748E;
+}
+
+.accent-clr-blue {
+  color: #00BCFF;
+}
+.accent-clr-purple {
+  color: #422AD5;
+}
+
+.bg-light-blue {
+  background-color: #BADEFF42;
+}
+.bg-gray {
+  background-color: #F8F8F8;
+}
+
+/** HOVER */
+.btn-hover:hover {
+  background-color: #422ad5;
+  color: #ffffff;
+}
+i {
+  color: #422AD5;
+}
+.btn-hover:hover i {
+  color: #ffffff;
+}
