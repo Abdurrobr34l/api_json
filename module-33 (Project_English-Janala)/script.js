@@ -15,6 +15,7 @@
 //   if (email === "abd@gmail.com") {
 //     if (password === "12") {
 //       document.querySelector("header").classList.remove("hidden");
+//       document.getElementById("main").classList.remove("hidden");
 //       document.getElementById("form").classList.add("hidden");
 //       userEmailInput.value = "";      
 //       userPasswordInput.value = "";      

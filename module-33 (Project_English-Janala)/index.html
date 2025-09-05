@@ -26,7 +26,7 @@
 <body class="font-poppins primary-clr">
 
   <!--* LOGIN FORM START -->
-  <section id="form" class="flex items-center justify-center h-screen">
+  <!-- <section id="form" class="flex items-center justify-center h-screen">
     <form class="flex flex-col gap-4">
       <h1 class="accent-clr-blue  mb-10 text-6xl font-bold text-center">Login</h1>
 
@@ -36,12 +36,12 @@
 
       <button type="submit" id="submit-button" class="btn text-sm font-semibold bg-transparent accent-clr-purple border-2 border-[#422ad5] rounded-md transition-colors ease-linear duration-200 btn-hover">Submit</button>
     </form>
-  </section>
+  </section> -->
   <!--* LOGIN FORM END -->
 
   <!--* HEADER START -->
-  <header class=" mx-auto max-w-[1920px]"> <!-- add this class after finishing the project "hidden" -->
-    <div class="navbar bg-light-blue py-6 px-20">
+  <header class=" mx-auto max-w-[1920px]">
+    <div class="navbar bg-light-blue py-6 px-3 md:px-10 xl:px-20">
 
       <!--? DROPDOWN & LOGO -->
       <div class="navbar-start">
@@ -136,6 +136,31 @@
     </div>
   </header>
   <!--* HEADER END -->
+
+  <!--* MAIN START -->
+  <main id="main" class="">
+
+    <!--* HERO START -->
+    <section class="mx-auto max-w-[1920px]">
+      <div class="flex flex-col-reverse items-center gap-8 py-5 px-3 md:flex-row md:px-10 md:py-7 xl:px-20 xl:py-12">
+
+        <!--? Hero Contents -->
+        <div class="flex-2">
+          <h1 class="text-3xl xl:text-5xl font-bold"><span class="accent-clr-blue">English</span> is Easy!!</h1>
+          <p class="font-hind_siliguri pt-3 pb-7 text-lg font-medium xl:max-w-[700px] md:pt-5 lg:max-w-[500px] xl:pt-6 xl:text-2xl">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+        </div>
+
+        <!--? Hero Image -->
+        <div class="flex-1">
+          <img src="./assets/hero-student.png" alt="It is an boy image">
+        </div>
+
+      </div>
+    </section>
+    <!--* HERO END -->
+
+  </main>
+  <!--* MAIN END -->
 
   <script src="./script.js"></script>
 </body>
