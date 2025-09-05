@@ -38,6 +38,13 @@
 i {
   color: #422AD5;
 }
+.word-detail-i {
+  color: #374957;
+}
 .btn-hover:hover i {
   color: #ffffff;
+}
+
+button:hover {
+  cursor: pointer;
 }
