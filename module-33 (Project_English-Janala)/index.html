@@ -189,15 +189,31 @@
 
         </div>
 
-        <!--? Lesson Cards -->
+        <!--? Lesson Message and Cards -->
         <div id="lesson-card-div"
           class="bg-gray grid grid-cols-1 gap-[30px] mt-[30px] p-[20px] rounded-3xl md:grid-cols-2 md:p-[30px] xl:grid-cols-3 xl:mt-[70px]">
+
+          <!--* Lesson Message -->
+          <div class="col-span-12 py-[30px] text-center">
+            <h3 class="font-hind_siliguri text-[#79716]">আপনি এখনো কোন Lesson Select করেন ন।</h3>
+            <p class="font-hind_siliguri mt-3 text-[34px] font-medium text-[#292524]"><span>একটি</span> Lesson Select
+              <span>করুন।</span>
+            </p>
+          </div>
+
+          <!--* Error Lesson Message(No lesson to show) -->
+          <!-- <div class="col-span-12 py-[30px] text-center">
+            <img src="./assets/alert-error.png" alt="It is an alert image" class="mx-auto">
+            <h3 class="font-hind_siliguri my-[15px] text-[#79716]">আপনি এখনো কোন Lesson Select করেন ন।</h3>
+            <p class="font-hind_siliguri text-[34px] font-medium text-[#292524]"><span>একটি</span> Lesson Select <span>করুন।</span>
+            </p>
+          </div> -->
 
           <!--* Card -->
           <!-- <div class="p-5 bg-white rounded-xl md:p-10 xl:p-14">
 
             <div class="flex flex-col items-center gap-6">
-              <h3 class="text-3xl font-bold">Eager</h3>
+              <h4 class="text-3xl font-bold">Eager</h4>
               <p class="text-xl font-medium">Meaning /Pronounciation</p>
               <p class="font-hind_siliguri text-3xl font-semibold text-[#464649]">"আগ্রহী / ইগার"</p>
             </div>
@@ -217,6 +233,35 @@
           </div> -->
 
         </div>
+
+        <!--? Lesson Info Modal -->
+        <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+          <div class="modal-box">
+
+            <!--* Word Details -->
+            <div id="word-details-div p-6">
+              <div class="p-6 border-2 border-[#EDF7FF] rounded-xl">
+
+                <h5 class="text-4xl font-semibold">Eager (<img src="./assets/fi-ss-microphone.png" alt="It is an image of microphone" class="inline-block size-[31px]">:<span>ইগার</span>)</h5>
+                <p class="mt-8 mb-2 text-2xl font-semibold">Meaning</p>
+                <p class="text-2xl font-medium">আগ্রহী</p>
+                <p class="mt-8 mb-2 text-2xl font-semibold">Example</p>
+                <p class="text-2xl font-normal">The kids were eager to open their gifts.</p>
+                <p class="mt-8 text-2xl font-medium">সমার্থক শব্দ গুলো</p>
+
+              </div>
+            </div>
+
+            <div class="modal-action">
+              <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn">Close</button>
+              </form>
+            </div>
+
+          </div>
+        </dialog>
 
       </div>
     </section>

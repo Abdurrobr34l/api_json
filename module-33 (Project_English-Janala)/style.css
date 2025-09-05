@@ -35,16 +35,24 @@
   background-color: #422ad5;
   color: #ffffff;
 }
+.btn-active {
+  background-color: #422ad5;
+  color: #ffffff;
+  & i {
+    color: #ffffff;
+  }
+}
+
 i {
   color: #422AD5;
 }
 .word-detail-i {
   color: #374957;
 }
+
 .btn-hover:hover i {
   color: #ffffff;
 }
-
 button:hover {
   cursor: pointer;
 }
